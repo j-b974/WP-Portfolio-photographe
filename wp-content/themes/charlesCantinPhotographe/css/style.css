@@ -7,7 +7,7 @@ html, body{
     height: 100vh;
     font-family: 'open Sans','sans-serif';
     background-color: black;
-    background-image: url('http://charle-cantin.jb974/wp-content/uploads/2023/06/background.jpg');
+    background-image: url('http://charle-cantin/wp-content/uploads/2023/06/background.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -58,7 +58,7 @@ header nav{
     display: inline-block;
     height: 100%;
     width:120px;
-    background-image: url('http://charle-cantin.jb974/wp-content/uploads/2023/06/logo_400x200.png');
+    background-image: url('http://charle-cantin/wp-content/uploads/2023/06/logo_400x200.png');
     background-position: center;
     background-size: cover;
     
@@ -284,6 +284,7 @@ header > .dropdownMenu{
     justify-content: center;
     align-items: center;
     border-radius: 18px;
+    padding: 1.1rem 0;
     background-color: rgba(245, 245, 245, 0.555);
     backdrop-filter: blur(18px);
     -webkit-backdrop-filter: blur(18px);

@@ -1,0 +1,75 @@
+{
+    "Bapteme":[
+        "http://charle-cantin/wp-content/uploads/img/Bapteme/bapteme1.jpg",
+        "http://charle-cantin/wp-content/uploads/img/Bapteme/bapteme2.jpg",
+        "http://charle-cantin/wp-content/uploads/img/Bapteme/bapteme3.jpg",
+        "http://charle-cantin/wp-content/uploads/img/Bapteme/bapteme4.jpg",
+        "http://charle-cantin/wp-content/uploads/img/Bapteme/bapteme2.jpg",
+        "http://charle-cantin/wp-content/uploads/img/Bapteme/bapteme6.jpg"
+
+    ],
+
+    "BéBé":[
+        "http://charle-cantin/wp-content/uploads/img/BéBé/bebe1.jpg",
+        "http://charle-cantin/wp-content/uploads/img/BéBé/bebe3.jpg",
+        "http://charle-cantin/wp-content/uploads/img/BéBé/bebe4.jpg",
+        "http://charle-cantin/wp-content/uploads/img/BéBé/bebe5.jpg",
+        "http://charle-cantin/wp-content/uploads/img/BéBé/bebe6.jpg",
+        "http://charle-cantin/wp-content/uploads/img/BéBé/bebe7.jpg",
+        "http://charle-cantin/wp-content/uploads/img/BéBé/bebe2.webp",
+        "http://charle-cantin/wp-content/uploads/img/BéBé/bebe8.webp"
+    ],
+
+    "Couple":[
+        "http://charle-cantin/wp-content/uploads/img/Couple/couple1.jpg",
+        "http://charle-cantin/wp-content/uploads/img/Couple/couple2.jpg",
+        "http://charle-cantin/wp-content/uploads/img/Couple/couple3.jpg",
+        "http://charle-cantin/wp-content/uploads/img/Couple/couple4.jpg",
+        "http://charle-cantin/wp-content/uploads/img/Couple/couple5.jpg",
+        "http://charle-cantin/wp-content/uploads/img/Couple/couple6.jpg",
+        "http://charle-cantin/wp-content/uploads/img/Couple/couple7.jpg",
+        "http://charle-cantin/wp-content/uploads/img/Couple/couple8.jpg"
+
+    ],
+
+    "Famille":[
+        "http://charle-cantin/wp-content/uploads/img/Famille/famille1.jpg",
+        "http://charle-cantin/wp-content/uploads/img/Famille/famille2.jpg",
+        "http://charle-cantin/wp-content/uploads/img/Famille/famille3.jpg",
+        "http://charle-cantin/wp-content/uploads/img/Famille/famille4.jpg",
+        "http://charle-cantin/wp-content/uploads/img/Famille/famille5.jpg",
+        "http://charle-cantin/wp-content/uploads/img/Famille/famille6.jpg",
+        "http://charle-cantin/wp-content/uploads/img/Famille/famille7.jpg"
+
+    ],
+
+    "Grossesse":[
+        "http://charle-cantin/wp-content/uploads/img/Grossesse/grossesse.jpg",
+        "http://charle-cantin/wp-content/uploads/img/Grossesse/grossesse2.jpg",
+        "http://charle-cantin/wp-content/uploads/img/Grossesse/grossesse3.jpg",
+        "http://charle-cantin/wp-content/uploads/img/Grossesse/grossesse4.jpg",
+        "http://charle-cantin/wp-content/uploads/img/Grossesse/grossesse5.jpg",
+        "http://charle-cantin/wp-content/uploads/img/Grossesse/grossesse6.jpg"
+
+    ],
+
+    "Mariage":[
+        "http://charle-cantin/wp-content/uploads/img/Mariage/mariage1.jpg",
+        "http://charle-cantin/wp-content/uploads/img/Mariage/mariage2.jpg",
+        "http://charle-cantin/wp-content/uploads/img/Mariage/mariage3.jpg",
+        "http://charle-cantin/wp-content/uploads/img/Mariage/mariage4.jpg",
+        "http://charle-cantin/wp-content/uploads/img/Mariage/mariage5.jpg",
+        "http://charle-cantin/wp-content/uploads/img/Mariage/mariage6.jpg"
+
+    ],
+    "Portait":[
+        "http://charle-cantin/wp-content/uploads/img/Portait/portait1.jpg",
+        "http://charle-cantin/wp-content/uploads/img/Portait/portait2.jpg",
+        "http://charle-cantin/wp-content/uploads/img/Portait/portait3.jpg",
+        "http://charle-cantin/wp-content/uploads/img/Portait/portait4.jpg",
+        "http://charle-cantin/wp-content/uploads/img/Portait/portait5.jpg",
+        "http://charle-cantin/wp-content/uploads/img/Portait/portait6.jpg"
+    
+    ]
+
+}

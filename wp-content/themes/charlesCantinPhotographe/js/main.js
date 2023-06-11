@@ -24,11 +24,12 @@ btnToggle.addEventListener('click',function(){
 
     function getDirection(){
 
+
         return window.innerWidth <= 580 ? 'vertical' : 'horizontal';
     }
 
     function creatSwiper(){
-        const swiper = new Swiper(".mySwiper", {
+        let swiper = new Swiper(".mySwiper", {
             effect: "coverflow",
             grabCursor: true,
             centeredSlides: true,
@@ -46,11 +47,10 @@ btnToggle.addEventListener('click',function(){
               slideShadows: true,
             },
           });
-
     }
 
+    loadListImg("");
      creatSwiper();
-     loadListImg("");
 
 
     const lstBtnMenu = document.querySelectorAll(".lstTheme li a");
@@ -74,7 +74,7 @@ btnToggle.addEventListener('click',function(){
         
         let cat = lstCat[id-1] ?? null ;
         
-        fetch('../imgLoad2.json')
+        fetch('http://charle-cantin/wp-content/themes/imgLoad2.json')
 
         .then(response =>{
             return response.json()
@@ -112,12 +112,17 @@ btnToggle.addEventListener('click',function(){
 
         if(!lstImage){return;}
         let str ='';
+
         lstImage.forEach(function(path){
+
             str += `<div class="swiper-slide"><img src="${path}" /></div>`;
         })
+
         SwiperLoad.innerHTML = str;
-        creatSwiper();
+
+           
+
     }
-  }
+}
 
 //  =====================================

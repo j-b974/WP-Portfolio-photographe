@@ -40,12 +40,15 @@ function loaderFiles(){
 
     wp_register_style('styleInit', get_template_directory_uri().'/css/style.css');
     wp_register_style('awsomeIcon','https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+    wp_register_style('swipperCss','https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css');
 
+    wp_enqueue_style('swipperCss');
     wp_enqueue_style('awsomeIcon');
     wp_enqueue_style('styleInit');
 
     wp_register_script('mainJs',get_template_directory_uri().'/js/main.js',[],false,true); 
-    wp_register_script('swipper','https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js',[],false,true);
+    wp_register_script('jquery','https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js',false,true); 
+    wp_register_script('swipper','https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js',['jquery'],false,true);
 
     wp_enqueue_script('swipper');
     wp_enqueue_script('mainJs');
