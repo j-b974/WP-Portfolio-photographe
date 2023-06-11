@@ -69,3 +69,28 @@ function nav_menu_theme($arg){
 }
 
 add_filter('nav_menu_css_class', 'nav_menu_theme');
+
+add_filter( 'wpcf7_validate_configuration', '__return_false' );
+
+/*Contact form 7 remove span*/
+add_filter('wpcf7_form_elements', function($content) {
+    $content = preg_replace('/<(span).*?class="\s*(?:.*\s)?wpcf7-form-control-wrap(?:\s[^"]+)?\s*"[^\>]*>(.*)<\/\1>/i', '\2', $content);
+
+    $content = str_replace('<br />', '', $content);
+    $content = str_replace('<p>', '', $content);
+    $content = str_replace('</p>', '', $content);
+
+    $name = 'name="username"';
+    $name2 = 'name="mail"';
+    $str_pos = strpos( $content, $name );
+    $str_pos2 = strpos( $content, $name2 );
+    if (false !== $str_pos) {
+        $content = substr_replace( $content, ' required="required" ', $str_pos, 0 );
+    }
+    if(false !== $str_pos2){
+        $content = substr_replace( $content, ' required="required" ', $str_pos2, 0 );
+    }
+
+        
+    return $content;
+});

@@ -4,10 +4,12 @@
 <main>
         <section class="containerContact">
             <div>
-                <form action="#" method="post" class="formulair">
-                    <h2>Pour me contacter </h2>
-                    <div class="formBox">
-                        <i class="fa-regular fa-user"></i>
+            <?= do_shortcode('[contact-form-7 id="50" title="" form 1 html_class="formulair"]')?>
+            
+                <!-- <form action="" method="post" class="formulair">
+                    <h2>Pour me contacter </h2> -->
+                    <!-- <div class="formBox"> -->
+                        <!-- <i class="fa-regular fa-user"></i>
                         <input type="text" name="username" id="" required>
                         <label for="">Nom</label>
                     </div>
@@ -19,8 +21,8 @@
                     <div class="formBox2">
                        <textarea name="message" id="message" cols="45" rows="20" placeholder="Votre message...."></textarea>
                     </div>
-                    <button type="submit">Envoyer</button>
-                </form>
+                    <button type="submit">Envoyer</button> -->
+                <!-- </form> -->
             </div>
         </section>
     </main>
